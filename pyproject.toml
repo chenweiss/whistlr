@@ -1,0 +1,13 @@
+[project]
+name = "whistlr"
+version = "0.0.1"
+description = "Durable agent runs and cross-provider workflows for herdr"
+readme = "README.md"
+requires-python = ">=3.9"
+
+[project.scripts]
+whistlr = "whistlr:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
