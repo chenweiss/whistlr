@@ -5,6 +5,9 @@ description = "Durable agent runs and cross-provider workflows for herdr"
 readme = "README.md"
 requires-python = ">=3.9"
 
+[project.urls]
+Repository = "https://github.com/chenweiss/whistlr"
+
 [project.scripts]
 whistlr = "whistlr:main"
 

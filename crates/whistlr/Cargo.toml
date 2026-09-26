@@ -1,0 +1,12 @@
+[package]
+name = "whistlr"
+version = "0.0.1"
+edition = "2021"
+description = "Durable agent runs and cross-provider workflows for herdr"
+license = "MIT"
+repository = "https://github.com/chenweiss/whistlr"
+readme = "README.md"
+
+[[bin]]
+name = "whistlr"
+path = "src/main.rs"
